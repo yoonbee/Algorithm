@@ -26,8 +26,8 @@
    STRLIST *listtop = NULL;	// 첫 번째 요소에 대한 주소를 넣는 포인터 변수
    
    listtop = (STRLIST *)malloc(sizeof(STRLIST));
-strcpy(listtop->name, "김윤비");
-	listtop->next = NULL;
+   strcpy(listtop->name, "김윤비");
+   listtop->next = NULL;
    ```
    
 3. 위와 마찬가지로 malloc() 함수로 다음 요소를 만들고, 앞에서 만든 요소(첫 번째 요소)의 next 멤버에 그 주소를 넣는다.
